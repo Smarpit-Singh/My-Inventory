@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42e2f4"
+    tools:context="com.example.devsmar.myapplication.InsertActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/priceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/nameText"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Price"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/quantityText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/priceText"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="number" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/supplier_nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/quantityText"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Supplier Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/supplier_phoneText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/supplier_nameText"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Supplier Phone"
+            android:inputType="number" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/supplier_emailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/supplier_phoneText"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Supplier Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/supplier_addressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/supplier_emailText"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Supplier Address"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/supplier_barcodeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/supplier_addressText"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Barcode"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:id="@+id/image_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/supplier_barcodeText"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/barcodeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Barcode" />
+
+            <Button
+                android:id="@+id/selectimageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Image" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/insertImage"
+            android:minHeight="200dp"
+            android:minWidth="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="400dp"
+            android:maxWidth="400dp"
+            android:layout_below="@id/image_linearLayout"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</ScrollView>
+

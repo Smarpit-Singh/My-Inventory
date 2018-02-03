@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuadd"
+        app:showAsAction="always"
+        android:title="Add"
+       />
+
+    <item android:id="@+id/menudeleteall"
+        app:showAsAction="never"
+        android:title="Delete All" />
+
+    <item android:id="@+id/menuAbout"
+        app:showAsAction="never"
+        android:title="About"/>
+
+
+</menu>
