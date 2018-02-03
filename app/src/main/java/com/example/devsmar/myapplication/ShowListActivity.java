@@ -101,8 +101,8 @@ public class ShowListActivity extends AppCompatActivity  implements LoaderManage
         values.put(DataContract.ItemName.COLUMN_PRICE,"44");
         values.put(DataContract.ItemName.COLUMN_QUANTITY,"12");
         values.put(DataContract.ItemName.COLUMN_SUPPLIER_NAME,"Smarpit");
-        values.put(DataContract.ItemName.COLUMN_SUPPLIER_PHONE,"8283943193");
-        values.put(DataContract.ItemName.COLUMN_SUPPLIER_EMAIL,"smarpitsingh560@gmail.com");
+        values.put(DataContract.ItemName.COLUMN_SUPPLIER_PHONE,"82839433058");
+        values.put(DataContract.ItemName.COLUMN_SUPPLIER_EMAIL,"supplier-email@gmail.com");
         values.put(DataContract.ItemName.COLUMN_SUPPLIER_ADDRESS,"vpo ballowal");
         values.put(DataContract.ItemName.COLUMN_BARCODE,"876865675765");
         values.put(DataContract.ItemName.COLUMN_DATE,"2018/01/29");
